@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main(void)
 {
- printf("Hello World£¡\n");
+	char str[128];
+	scanf("%s",str);
+ printf("%s\n",str);
 return 0;
 }
